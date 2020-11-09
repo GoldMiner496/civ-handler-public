@@ -15,7 +15,7 @@ CIV = require('./civ-handler');
 VARS = {}
 
 // Port to bind the server to
-APP_PORT = %PORT%
+APP_PORT = 80
 APP_ALIVE_INTERVAL = 7200000
 
 // Object to store sent messages for duplicate checking
@@ -55,17 +55,17 @@ BOT_MSG_COLOR = "#ff6600"
 
 // Steamnick -> discord user ID so that @mentions can work (enable dev mode in discord, right click user to copy his/her ID)
 USER_MAP = {
-	// "steamnick" : "<@discordid>",
+	 "GoldMiner496" : "<366287244161449985>",
 	// "steamnick" : "<@discordid>",
 	// "steamnick" : "<@discordid>",
 }
 
 // Wbhook URLs from Discord, uses certain hook based on partial game name
 HOOKS = [
-	// {
-	// 	name: "Partial gamename",
-	// 	hook: new DISCORD.Webhook("<<discordwebhookurl>>")
-	// },
+	 {
+	 	name: "GoldMiner496's Game",
+	 	hook: new DISCORD.Webhook("<<https://discordapp.com/api/webhooks/775195840121405470/Y8TtpTHeg3Ct8r1RdhDrJNLt7HJA_Jaib1YVsJMqXgwEk_l5ItxHilxtT_almgDwfpMW>>")
+	 },
 ]
 
 // Handle posts requests to /, /civ, /new_turn, /civ/new_turn
