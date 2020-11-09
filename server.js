@@ -15,7 +15,7 @@ CIV = require('./civ-handler');
 VARS = {}
 
 // Port to bind the server to
-APP_PORT = 80
+APP_PORT = %PORT%
 APP_ALIVE_INTERVAL = 7200000
 
 // Object to store sent messages for duplicate checking
